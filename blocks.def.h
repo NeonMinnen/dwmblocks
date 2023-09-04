@@ -7,7 +7,7 @@ static const Block blocks[] = {
     {"" , "~/.local/bin/volume1",                       0,     10} ,
 	{"Home:" , "~/.local/bin/homespace",                5,      0} ,
 	{"Root:" , "~/.local/bin/rootspace",                5,      0} ,
-	{"Updates:" , "~/.local/bin/pacman",                        300,    0} ,
+	{"Updates:" , "~/.local/bin/pacman",                300,    0} ,
 	{"", "date '+%b %d (%a) %I:%M%p'",					5,		0},
 };
 
