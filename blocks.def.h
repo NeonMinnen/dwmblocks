@@ -2,9 +2,9 @@
 static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
 	{"Mem:", "free -h | awk '/^Mem/ { print $3\"/\"$2 }' | sed s/i//g",	30,		0},
-	{"CPU:" , "~/.local/bin/cpu",                       5,    0} ,
-	{"GPU:" , "~/.local/bin/gpu",                       5,    0} ,
-    {"" , "~/.local/bin/volume",                        5,      0} ,
+	{"CPU:" , "~/.local/bin/cpu",                       5,      0} ,
+	{"GPU:" , "~/.local/bin/gpu",                       5,      0} ,
+    {"" , "~/.local/bin/volume1",                       0,     10} ,
 	{"Home:" , "~/.local/bin/homespace",                5,      0} ,
 	{"Root:" , "~/.local/bin/rootspace",                5,      0} ,
 	{"Updates:" , "~/.local/bin/pacman",                        300,    0} ,
